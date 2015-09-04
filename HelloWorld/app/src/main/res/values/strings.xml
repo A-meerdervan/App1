@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Profesional Horoscope</string>
+
+    <string name="hello_world">Profesional Horoscope</string>
+    <string name="action_settings">Settings</string>
+    <string name="WelcomeMessage">Professional Atrologists are cosulted weekly by this app.
+        \nPlease click your month of birth for advise from the stars (the button below has a sepparate feature)</string>
+    <string name="ButtonWelcome">Press to be amased</string>
+    <string name="title_activity_tweede_scherm">Your horoscope</string>
+    <string name="Month1">Jan</string>
+    <string name="Month2">Feb</string>
+    <string name="Month3">Mar</string>
+    <string name="Month4">Apr</string>
+    <string name="Month5">May</string>
+    <string name="Month6">Jun</string>
+    <string name="Month7">Jul</string>
+    <string name="Month8">Aug</string>
+    <string name="Month9">Sep</string>
+    <string name="Month10">Oct</string>
+    <string name="Month11">Nov</string>
+    <string name="Month12">Dec</string>
+    <string name="Horoscope1">your month will be like previous months but different</string>
+    <string name="KlikTerug">Go Back</string>
+
+
+
+</resources>

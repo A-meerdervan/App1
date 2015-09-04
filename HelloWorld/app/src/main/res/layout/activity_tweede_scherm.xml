@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.alex.helloworld.TweedeScherm"
+    android:background="#0a0a0a">
+
+    <TextView
+        android:text= "@string/Horoscope1"
+        android:id="@+id/HoroscopeTekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0dd2ff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"
+        android:textColor="#080808" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/KlikTerug"
+        android:id="@+id/button2"
+        android:onClick="klikTerug"
+        android:background="#ff120b"
+        android:backgroundTint="#ff0007"
+        android:textSize="20sp"
+        android:textColor="#fffefe"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

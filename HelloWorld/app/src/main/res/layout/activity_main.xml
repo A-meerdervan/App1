@@ -1,0 +1,207 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@android:color/black">
+
+
+    <TextView
+        android:text="@string/WelcomeMessage"
+        android:id="@+id/WelcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0dd2ff"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"
+        android:textColor="#080808" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ButtonWelcome"
+        android:id="@+id/WelcomeButton"
+        android:layout_below="@+id/WelcomeMessage"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:onClick="amaseUser"
+        android:background="#ff120b"
+        android:backgroundTint="#ff0007"
+        android:textSize="20sp"
+        android:textColor="#fffefe"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Month1"
+        android:id="@+id/KlikDoor"
+        android:layout_below="@+id/WelcomeButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:onClick="doorKlikken"
+        android:background="#ff120b"
+        android:backgroundTint="#ff0007"
+        android:textSize="15sp"
+        android:textColor="#fffefe" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Month2"
+        android:id="@+id/button"
+        android:onClick="doorKlikken"
+        android:background="#ff120b"
+        android:backgroundTint="#ff0007"
+        android:textSize="15sp"
+        android:textColor="#fffefe"
+        android:layout_alignTop="@+id/KlikDoor"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Month3"
+        android:id="@+id/button2"
+        android:onClick="doorKlikken"
+        android:background="#ff120b"
+        android:backgroundTint="#ff0007"
+        android:textSize="15sp"
+        android:textColor="#fffefe"
+        android:layout_alignTop="@+id/button"
+        android:layout_alignRight="@+id/WelcomeMessage"
+        android:layout_alignEnd="@+id/WelcomeMessage" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Month4"
+        android:id="@+id/button3"
+        android:layout_marginTop="20dp"
+        android:onClick="doorKlikken"
+        android:background="#ff120b"
+        android:backgroundTint="#ff0007"
+        android:textSize="15sp"
+        android:textColor="#fffefe"
+        android:layout_below="@+id/KlikDoor"
+        android:layout_alignRight="@+id/KlikDoor"
+        android:layout_alignEnd="@+id/KlikDoor" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Month5"
+        android:id="@+id/button4"
+        android:onClick="doorKlikken"
+        android:background="#ff120b"
+        android:backgroundTint="#ff0007"
+        android:textSize="15sp"
+        android:textColor="#fffefe"
+        android:layout_alignTop="@+id/button3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Month6"
+        android:id="@+id/button5"
+        android:onClick="doorKlikken"
+        android:background="#ff120b"
+        android:backgroundTint="#ff0007"
+        android:textSize="15sp"
+        android:textColor="#fffefe"
+        android:layout_alignTop="@+id/button4"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Month7"
+        android:id="@+id/button6"
+        android:onClick="doorKlikken"
+        android:background="#ff120b"
+        android:backgroundTint="#ff0007"
+        android:textSize="15sp"
+        android:textColor="#fffefe"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Month8"
+        android:id="@+id/button7"
+        android:onClick="doorKlikken"
+        android:background="#ff120b"
+        android:backgroundTint="#ff0007"
+        android:textSize="15sp"
+        android:textColor="#fffefe"
+        android:layout_alignTop="@+id/button6"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Month9"
+        android:id="@+id/button8"
+        android:onClick="doorKlikken"
+        android:background="#ff120b"
+        android:backgroundTint="#ff0007"
+        android:textSize="15sp"
+        android:textColor="#fffefe"
+        android:layout_alignTop="@+id/button7"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Month10"
+        android:id="@+id/button9"
+        android:onClick="doorKlikken"
+        android:background="#ff120b"
+        android:backgroundTint="#ff0007"
+        android:textSize="15sp"
+        android:textColor="#fffefe"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Month11"
+        android:id="@+id/button10"
+        android:onClick="doorKlikken"
+        android:background="#ff120b"
+        android:backgroundTint="#ff0007"
+        android:textSize="15sp"
+        android:textColor="#fffefe"
+        android:layout_alignBottom="@+id/button9"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Month12"
+        android:id="@+id/button11"
+        android:onClick="doorKlikken"
+        android:background="#ff120b"
+        android:backgroundTint="#ff0007"
+        android:textSize="15sp"
+        android:textColor="#fffefe"
+        android:layout_alignBottom="@+id/button10"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8" />
+
+
+</RelativeLayout>
